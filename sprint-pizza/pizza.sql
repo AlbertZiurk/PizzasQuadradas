@@ -1,0 +1,7 @@
+CREATE TABLE Pizza(
+	id_pizza SERIAL PRIMARY KEY,
+ 	codigo NUMERIC(5,0) NOT NULL,
+ 	nome VARCHAR(30) NOT NULL,
+ 	descricao VARCHAR(30) NOT NULL,
+	valor DECIMAL(3,2) NOT NULL
+);
